@@ -1,0 +1,28 @@
+.download-app{
+    height: 545px;
+    background-image: url(../images/mobile-download.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .buttons{
+        float: left;
+    }
+    .side-content{
+        padding: 200px 0 70px !important;
+    }
+    .image{
+        width: 50%;
+        background: $orange;
+    }
+    .image img{
+        height: 100%;
+        padding-bottom: 160px;
+    }
+    .side-content button{
+        background: $lite-green;
+        color: $green;
+    }
+    .side-content p span{
+        color: $green;
+    }
+}

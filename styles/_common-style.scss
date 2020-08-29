@@ -1,0 +1,54 @@
+.round-btn{
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+.orange-btn{
+    background-color: #fddad0;
+    color: $orange;
+}
+.violate-btn{
+    background-color: $lite-violate;
+    color: $violate;
+}
+.green-btn{
+    background-color: $lite-green;
+    color: $green;
+}
+.btn-primary{
+    background: linear-gradient(193deg, rgba(125,91,212,1) 1%, rgba(131,85,251,1) 50%);
+    border: none;
+    box-shadow: 5px solid rgba(125,91,212,1);
+}
+.green-rec-btn{
+    background: linear-gradient(90deg, rgba(18,166,40,1) 48%, rgba(134,213,100,1) 100%);
+    color: #fff;
+}
+.section-title{
+    font-size: 2.813rem;
+    color: $dark-grey !important;
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 50px;
+}
+.content-title{
+    color: $dark-grey;
+    font-size: 1.75rem;
+    margin-bottom: -10px;
+}
+.small-font-title{
+    font-size:2.188rem;
+    line-height: 50px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+svg{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body{
+    font-size: 16px;
+    color: $gray;
+    font-family: sans-serif;
+}

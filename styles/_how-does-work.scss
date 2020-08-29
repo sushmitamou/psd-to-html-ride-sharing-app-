@@ -1,0 +1,19 @@
+.how-does-work{
+    padding: 90px 0;
+    display: flex !important;
+
+    .image, .side-content{
+        width: 45% !important;
+        float: left;
+        margin-right: 5%;
+    }
+    .side-content{
+        width: 45%;
+        padding-top: 70px;
+    }
+    .image img{
+        width: 100%;
+    }
+
+
+}

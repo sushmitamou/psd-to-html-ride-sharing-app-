@@ -1,0 +1,70 @@
+.register-section{
+    background-image: linear-gradient(#fff, #f3f3f3, #fff);
+    .title{
+        text-align: center;
+    }
+    .title p span{
+        color: $green;
+    }
+    .card{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .card-title, .card-text{
+        text-align: center !important;
+    }
+    .card-title{
+        font-size: 1.25rem !important;
+    }
+    .card-body a{
+        color: $orange;
+    }
+    #card-1{
+        background-image: url(../images/rider-2.jpg);
+    }
+    #card-2{
+        background-image: url(../images/rider-1.jpg);
+    }
+
+}
+
+.testiminial{
+    // background-image: url(../images/testimonial.jpg);
+    // background-position: center;
+    // background-size: cover;
+    height: 560px;
+    .title{
+        float: left;
+        padding-top: 140px;
+        margin-right: 200px;
+    }
+    .image{
+        padding-top: 140px;
+    }
+    .title p span{
+        color: $orange;
+    }
+    .pages{
+        padding-top: 35px;
+    }
+    .pages i{
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+        text-align: center;
+        padding-top: 10px !important;
+    }
+    .pages i:nth-child(1){
+        background: $lite-green !important;
+        color: $green !important;
+    }
+
+    .pages i:nth-child(2){
+        background: $lite-orange !important;
+        color: $orange !important;
+    }
+}

@@ -1,0 +1,84 @@
+.service-section{
+    background-image: linear-gradient(#fff, #ffffff, #fdfdfd);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1700px;
+
+    .title{
+        text-align: center;
+        padding: 0px 0 55px!important;
+        margin-top: -200px !important;
+    }
+
+    .full-content{
+        width: 100%;
+        display: flex !important;
+        margin-bottom: 70px !important;
+    }
+    .left-content, .right-content{
+        width: 50% !important;
+    }
+    .left-content{
+        line-height: 30px;
+    }
+    hr{
+        width: 400px !important;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+    }
+    .content-title, .number{
+        line-height: 7px !important;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .number{
+        font-size: 2.188rem;
+    }
+    #num-1{
+        color: #7c5cd0;
+    }
+    #num-2{
+        color: $orange;
+    }
+    #num-3{
+        color: $green;
+    }
+
+    .icon{
+        float: left;
+        width: 66px;
+        height: 60px;
+        text-align: center;
+        padding: 15px;
+        margin-right: 20px;
+    }
+    .icon i{
+        font-size: 28px;
+    }
+    #icon-1{
+        background-color: #dbf1df;
+        color: $green;
+    }
+    #icon-2{
+        background-color: #e6dcfe;
+        color: $violate;
+    }
+    #icon-3{
+        background-color: #fee0d5;
+        color: $orange;
+    }
+    .service-icon p br{
+        float: left;
+    }
+    .service-icon a{
+        color: $orange;
+    }
+    #second-img{
+        margin-right: 90px;
+    }
+    .text{
+        margin-top: 70px;
+    }
+}

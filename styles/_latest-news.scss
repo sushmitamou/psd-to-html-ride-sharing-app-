@@ -1,0 +1,60 @@
+.latest-news{
+
+    background-image: linear-gradient(#f6f8ff, #f6f4fa);
+    .title{
+        padding-top: 75px;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 35px;
+    }
+    .text button{
+        height: 50px !important;
+    }
+
+    .title p span{
+        color: $violate;
+    }
+    .news-btn{
+        float: right;
+    }
+    .cards{
+        display: flex !important;
+        justify-content: space-between;
+        padding-bottom: 75px;
+    }
+    .card{
+        width: 545px;
+    }
+    .card img{
+        width: 250px;
+    }
+    .card-body{
+        margin-left: 70px;
+    }
+    .card-body button{
+        background: $lite-violate;
+        color: $violate;
+    }
+    .title .news-btn{
+        float: right !important;
+        padding-bottom: 100px;
+    }
+    .large-text{
+        font-size: 1.063rem;
+    }
+    #large-text{
+        color: $orange !important;
+    }
+    .profile{
+        display: flex !important;
+    }
+    .profile img{
+        height: 35px !important;
+        width: 35px !important;
+    }
+    .profile p{
+        margin: 5px 0 0 20px;
+    }
+}

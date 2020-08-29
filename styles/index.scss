@@ -1,0 +1,335 @@
+@import "./variable";
+@import "./common-style";
+@import "./header";
+@import "./prime-offer";
+@import "./service-section";
+@import "./download-app";
+@import "./working-process";
+@import "./destination";
+@import "./how-does-work";
+@import "./register";
+@import "./latest-news";
+@import "./upcoming";
+@import "./footer";
+
+
+
+@media screen and (max-width: 1440px){
+    .service-section {
+        height: 1740px;
+    }
+
+    .download-app{
+        background-size: cover;
+        background-position: center;
+    }
+    .destination{
+        background-size: cover;
+        background-position: center;
+    }
+    .upcoming-section{
+        background-size: cover;
+        background-position: center !important;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+    .section-title {
+        font-size: 2.188rem;
+        line-height: 40px;
+    }
+    .content-title {
+        font-size: 1.50rem;
+    }
+    header{
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        background-position: center !important;
+        h1 {
+            margin: 155px 0 30px;
+            color: #2c2c2c;
+            font-size: 3.45rem !important;
+        }
+    }
+    .service-section {
+        padding-top: 100px !important;
+        height: 1500px !important;
+    }
+    .testiminial {
+        .title {
+            float: left !important;
+            padding-top: 140px;
+            margin-right: 0px !important; 
+        }
+    }
+    .prime-offer{
+        p {
+            font-size: 14px !important;
+            margin-top: 0px !important;
+        }
+        .background, .icon{
+            width: 50px;
+            height: 50px;
+        }
+        .background {
+            margin-right: 15px;
+        }
+        .icon i {
+            margin: 12px !important;
+            font-size: 24px;
+        }
+
+    }
+   
+    .latest-news{
+        .card {
+            width: 450px !important;
+        }
+        .card img {
+            width: 190px;
+        }
+        .card-body {
+            margin-left: 35px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    .section-title {
+        font-size: 2.00rem;
+        line-height: 40px;
+    }
+    .content-title {
+        font-size: 1.30rem;
+    }
+    header{ 
+        background-image: none !important;
+        height: 400px !important;
+        h1 {
+            margin: 100px 0 10px;
+            color: #2c2c2c;
+            font-size: 3.00rem !important;
+        }
+    }
+    .prime-offer{
+        .col {
+          display: flex;
+          flex-direction: column;
+        }
+        p{
+            margin-top: 20px !important;
+        }
+    }
+    .download-app {
+        background: none !important;
+        height: 440px !important;
+        .side-content {
+            text-align: center !important;
+        }
+        .buttons {
+            margin-left: 200px;
+        }
+        .side-content {
+            padding: 70px 0 !important;
+        }
+    }
+    .service-section{
+        .service-contents{
+            margin-left: 30px;
+        }
+         .right-content {
+            width: 50% !important;
+        }
+    }
+
+    .destination {
+        background: none;
+        height: 400px;
+    }
+    .service-section {
+        height: 1540px !important;
+        img {
+        width: 80%;
+        height: 350px;
+        }
+        .left-content {
+            margin-right: 50px;
+        }
+        .title{
+            margin-top: -120px !important;
+        }
+    }
+    .how-does-work {
+        .image{
+            width: 40% !important;
+        }
+        .side-content {
+            width: 80% !important;
+            padding-top: 30px;
+            text-align: center !important;
+            margin-left: 15%;
+        }
+        .image {
+            width: 80% !important;
+            margin-left: 15%;
+        }
+        .image img{
+            width: 100% !important;
+        }
+    }
+    .working-process {
+        width: 110%;
+    }
+    .testiminial {
+         .title {
+            margin-right: 100px;
+            float: left;
+         }
+         .image img{
+            width: 35% !important;
+        }
+    }
+    .register-section, .latest-news, .upcoming-section, .prime-offer{
+        width: 110%;
+    }
+    .latest-news {
+        .card {
+            width: 350px !important;
+        }
+        .card img {
+            width: 110px !important;
+        }
+        .card-body {
+            margin-left: 0px;
+        }
+        .profile img{
+            width: 40px !important;
+        }
+    } 
+}
+
+@media screen and (max-width: 425px){
+    body{
+        font-size: 24px;
+                width: 160% !important;
+    }
+    .section-title {
+        font-size: 2.50rem;
+        line-height: 40px;
+    }
+    .content-title {
+        font-size: 2.0rem;
+    }
+    header
+    {
+        padding-left: 100px !important;
+        h1 {
+            font-size: 2.50rem !important;
+        }
+        .form-control{
+            width: 250px;
+        }
+    } 
+    .service-section {
+        padding-left: 100px !important;
+        height: 3000px !important;
+        .full-content{
+            display: flex;
+            flex-direction: column;
+        }
+        .left-content, .right-content {
+            width: 120% !important;
+            text-align: left;
+            padding: 50px 0;
+        }
+        img {
+            width: 70%;
+            height: 300px;
+        }
+    }
+    .working-process, .register-section, .prime-offer, .latest-news, .upcoming-section {
+        width: 120%;
+    }
+    .destination{
+        .title {
+            padding-left: 100px;
+            text-align: center;
+        }
+    } 
+    .register-section{
+        padding-left: 00px;
+        .card {
+            width: 90% !important;
+            margin-left: 40px !important;
+            margin-bottom: 50px;
+        }
+    }
+    .testiminial{
+        height: 650px !important;
+        padding: 0 100px !important;
+        .title {
+            width: 110%;
+            padding-top: 40px;
+        }
+        .image img {
+            width: 50% !important;
+            margin-left: 200px;
+            padding-bottom: 100px !important;
+        }
+    }
+    .card {
+        width: 350px !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .latest-news{
+        padding: 0 20px;
+        .card .profile img{
+            width: 40px !important;
+        }
+        .card img {
+            width: 100% !important;
+        }
+    } 
+    .download-app {
+        .side-content {
+            padding: 70px 50px !important;
+            margin-left: 50px !important;
+        }
+        .buttons {
+            margin-left: 100px;
+        }
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .download-app{
+        .buttons {
+            margin-left: 20px !important;
+        }
+    } 
+    .testiminial {
+        height: 650px !important;
+        padding: 0 50px !important;
+    }
+    .how-does-work .side-content {
+        width: 100% !important;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .download-app .side-content {
+        padding: 70px 20px 70px 0 !important;
+        margin-left: 50px !important;
+    }
+}

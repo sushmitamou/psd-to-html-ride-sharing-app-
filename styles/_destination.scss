@@ -1,0 +1,48 @@
+.destination{
+    background: url('../images/select-vehicles.jpg'), linear-gradient( rgba(233, 240, 252, 0.8), rgba(233, 240, 252, 0.8)) center center no-repeat;
+    background-position: center;
+    background-size: cover;;
+    background-repeat: no-repeat;
+    height: 1025px;
+
+    .title{
+        padding-top: 70px;
+        text-align: center;
+    }
+    .title p span{
+        color: $orange;
+    }
+    .icons{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .icon:nth-child(1), .icon:nth-child(2){
+        float: left;
+        margin-right: 60px;
+    }
+    .icon{
+        display: flex;
+    }
+    .icon i{
+        font-size: 40px !important;
+        margin-right: 0px;
+        float: left !important
+    }
+    .icon p{
+        width: 100px;
+        margin: 5px 0 10px 20px;
+        line-height: 20px;
+        text-align: left;
+    }
+    form{
+        justify-content: center;
+    }
+    form button{
+        background-image: linear-gradient(#fa4713, #fc642e);
+        color: #fff;
+        border: none;
+    }
+    
+}

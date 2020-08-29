@@ -1,0 +1,18 @@
+.upcoming-section{
+    width: 100%;
+    background-image: url(../images/upcoming.jpg);
+    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    .title{
+        text-align: center;
+        padding: 80px 0 !important;
+    }
+    .title p{
+        color: #fff !important;
+    }
+    form{
+        justify-content: center !important;
+        margin-top: 30px !important;
+    }
+}

@@ -1,0 +1,22 @@
+.working-process{
+    background-image: linear-gradient(#f7f7f7, #fff, #ffffff);
+    padding-top: 130px;
+    width: 100%;
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -100px;
+    }
+    .image{
+        width: 100%;
+        padding-bottom: 140px;
+    }
+
+    .image img{
+        width: 100%;
+    }
+}

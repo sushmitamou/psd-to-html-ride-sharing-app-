@@ -1,0 +1,54 @@
+footer{
+    padding: 130px 0 0px !important;
+    .row{
+        margin-bottom: 85px;
+    }
+
+    .title{
+        font-size: 1.063rem;
+        font-weight: 700;
+        color: $dark-grey;
+        margin-bottom: 40px;
+    }
+    .address-icon i{
+        color: $orange;
+        margin-right: 15px;
+    }
+
+    .logo{
+        background: linear-gradient(90deg, rgba(18,166,40,1) 48%, rgba(134,213,100,1) 100%);
+        height: 120% !important;
+        padding: 20px;
+        color: #fff;
+        font-size: 1.375rem;
+        font-weight: bold;
+    }
+    .logo i{
+        font-size: 28px;
+        border-radius: 25px !important;       
+    }
+    .fa-telegram{
+        background: #fff !important;
+        color: $dark-grey !important;
+    }
+    .navbar {
+        padding: 0 !important;
+        margin: 0;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+        background: $lite-green;
+        color: $green;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+    .icon:nth-child(2){
+        background: linear-gradient(90deg, rgba(18,166,40,1) 48%, rgba(134,213,100,1) 100%);
+        color: #fff;
+    }
+    .icon i{
+        margin-top: 7px;
+    }
+}
